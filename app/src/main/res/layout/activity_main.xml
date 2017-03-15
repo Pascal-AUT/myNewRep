@@ -6,13 +6,46 @@
     android:layout_height="match_parent"
     tools:context="at.pll.testappl.MainActivity">
 
+    <Button
+        android:id="@+id/bttnChoice4"
+        android:layout_width="159dp"
+        android:layout_height="119dp"
+        android:text="choice four"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="337dp" />
+
+    <Button
+        android:id="@+id/bttnChoice3"
+        android:layout_width="159dp"
+        android:layout_height="119dp"
+        android:text="choice three"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="337dp" />
+
+    <Button
+        android:id="@+id/bttnChoice2"
+        android:layout_width="159dp"
+        android:layout_height="119dp"
+        android:text="choice two"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="205dp" />
+
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/txtWord"
+        android:layout_width="344dp"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Test"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <Button
+        android:id="@+id/bttnChoice1"
+        android:layout_width="159dp"
+        android:layout_height="119dp"
+        android:text="choice one"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="205dp" />
 
 </android.support.constraint.ConstraintLayout>

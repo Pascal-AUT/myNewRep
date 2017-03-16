@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="at.pll.testappl.GUI.MainActivity">
+
+    <TextView
+        android:id="@+id/txtWord"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:text="TEXT"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <Button
+        android:id="@+id/bttnChoice4"
+        android:layout_width="159dp"
+        android:layout_height="119dp"
+        android:text="@string/bttn_choice_four"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="337dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/bttnChoice3"
+        android:layout_width="159dp"
+        android:layout_height="119dp"
+        android:text="@string/bttn_choice_three"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="337dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/bttnChoice2"
+        android:layout_width="159dp"
+        android:layout_height="119dp"
+        android:text="@string/bttn_choice_two"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="205dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/bttnChoice1"
+        android:layout_width="159dp"
+        android:layout_height="119dp"
+        android:text="@string/bttn_choice_one"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="205dp"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>

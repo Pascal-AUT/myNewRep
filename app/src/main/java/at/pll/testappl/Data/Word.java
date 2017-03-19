@@ -10,21 +10,20 @@ import at.pll.testappl.Msc.PartsOfSpeech;
 
 public class Word {
     private String transE = null;
-    private ArrayList<String> transG = null;
-    private ArrayList<String> synonyms = null;
-    private ArrayList<String> exampleSentences = null;
+    private ArrayList<String> listTransG = null;
+    private ArrayList<String> listSynonyms = null;
+    private ArrayList<String> listExampleSentences = null;
     private PartsOfSpeech partOfSpeech = null;
+
+    public Word(){
+        listTransG = new ArrayList<String>();
+        listSynonyms = new ArrayList<String>();
+        listExampleSentences = new ArrayList<String>();
+    }
 
     public Word(String transE, String transG){
         this();
         this.transE = transE;
-        this.transG.add(transG);
+        this.listTransG.add(transG);
     }
-
-    public Word(){
-        transG = new ArrayList<String>();
-        synonyms = new ArrayList<String>();
-        exampleSentences = new ArrayList<String>();
-    }
-
 }

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="at.pll.testappl.GUI.AddWordActivity">
+
+    <EditText
+        android:id="@+id/txtEnglish"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="English"
+        android:inputType="text"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="106dp"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/txtheader"
+        android:layout_alignLeft="@+id/txtGerman"
+        android:layout_alignStart="@+id/txtGerman" />
+
+    <EditText
+        android:id="@+id/txtGerman"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="German"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="169dp"
+        android:layout_below="@+id/txtEnglish"
+        android:layout_alignLeft="@+id/bttnAddWord"
+        android:layout_alignStart="@+id/bttnAddWord"
+        android:layout_marginTop="17dp" />
+
+    <TextView
+        android:id="@+id/txtheader"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="Add new word"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/txtEnglish"
+        android:layout_alignStart="@+id/txtEnglish"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:id="@+id/bttnAddWord"
+        android:layout_width="368dp"
+        android:layout_height="70dp"
+        android:text="Add"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="230dp"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/txtGerman"
+        android:layout_centerHorizontal="true" />
+
+</android.widget.RelativeLayout>

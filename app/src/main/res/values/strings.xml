@@ -4,4 +4,10 @@
     <string name="bttn_choice_two">Choice two</string>
     <string name="bttn_choice_three">Choice three</string>
     <string name="bttn_choice_four">Choice four</string>
+    <string name="title_activity_test">test</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
 </resources>

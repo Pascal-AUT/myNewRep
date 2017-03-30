@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">My test application</string>
     <string name="bttn_choice_one">Choice one</string>
-    <string name="bttn_choice_two">Choice one</string>
-    <string name="bttn_choice_three">Choice one</string>
-    <string name="bttn_choice_four">Choice one</string>
+    <string name="bttn_choice_two">Choice two</string>
+    <string name="bttn_choice_three">Choice three</string>
+    <string name="bttn_choice_four">Choice four</string>
 </resources>
